@@ -1,4 +1,4 @@
-//greedy ใช้ได้กับ double ด้วย
+//greedy ใช้ได้กับ double ได้ด้วย
 
 class Start {
     public static void main(String[] data) {
