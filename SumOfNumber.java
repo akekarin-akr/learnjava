@@ -1,22 +1,25 @@
 
 import java.util.Scanner;
 
-class SumOfNumber {
+class Start {
     public static void main(String[] args) {
+        
         Scanner scan = new Scanner(System.in);
-        int sum = 0;
+        
         int start;
         int end;
+        int sum = 0;
         
-        System.out.print("Enter fist number: ");
+        System.out.print("Enter the first number: ");
         start = scan.nextInt();
-        System.out.print("Enter end number: ");
+        System.out.print("Enter end of number: ");
         end = scan.nextInt();
-        int k = start-1;
+        int number = start-1;
+        
         for (int i = start; i <= end; i++) {
-            k = k + 1;
-            sum = sum + k;
+            number++;
+            sum += number;
         }
-        System.out.println("sum of number is: " + sum);
+        System.out.println("The sum of number is : " + sum);
     }
 }
